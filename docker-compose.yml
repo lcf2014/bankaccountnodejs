@@ -33,7 +33,6 @@ services:
 
   pgadmin:
     platform: linux/amd64
-
     image: dpage/pgadmin4
     container_name: bankaccount-pgadmin
     tty: true

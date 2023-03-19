@@ -33,7 +33,6 @@ services:
     environment:
       - POSTGRES_PASSWORD=docker
       - POSTGRES_DB=bankaccount
-
   pgadmin:
     platform: linux/amd64
 
